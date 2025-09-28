@@ -2,7 +2,7 @@
 
 Program Python sederhana buat ngatur data produk dengan sistem login Manager sama Karyawan.
 
-## Apa itu MINPRO?
+## Deskripsi Project
 
 Aplikasi CRUD basic yang bikin kita bisa kelola produk di terminal. Ada dua role:
 - **Manager**: Bisa (tambah, edit, hapus produk)
@@ -16,6 +16,7 @@ Aplikasi CRUD basic yang bikin kita bisa kelola produk di terminal. Ada dua role
 ```bash
 python MINPRO.py
 ```
+![Tampilan](1.png)
 
 ## Login Info
 
@@ -23,9 +24,14 @@ python MINPRO.py
 - Username: `manager`
 - Password: `manager123`
 
+![Tampilan2](2.png)
+
 **Karyawan:**
 - Username: `karyawan` 
 - Password: `karyawan123`
+
+![Tampilan3](3.png)
+  
 
 ## Fitur
 
@@ -35,9 +41,13 @@ python MINPRO.py
 - Edit produk (nama, kategori, harga, stok)
 - Hapus produk
 
+  ![Tampilan2](2.png)
+
 ### Karyawan bisa:
 - Liat produk
 - Update stok
+
+ ![Tampilan3](3.png)
 
 ## Data Produk
 
@@ -48,9 +58,11 @@ Tiap produk punya:
 - Harga
 - Stok
 
+  ![Tampilan3](4.png)
+
 ## Catatan
 
-- Data disimpen di memory aja, jadi kalau program ditutup data hilang
+- Data Tersimpan di saat running aja, jadi kalau program ditutup data hilang
 - Ada error handling untuk input yang salah
 - Interface hanya text-based
 
