@@ -4,7 +4,7 @@ Program Python sederhana buat ngatur data produk dengan sistem login Manager sam
 
 ## Apa itu MINPRO?
 
-Ini tuh aplikasi CRUD basic yang bikin kita bisa kelola produk di terminal. Ada dua role:
+Aplikasi CRUD basic yang bikin kita bisa kelola produk di terminal. Ada dua role:
 - **Manager**: Bisa (tambah, edit, hapus produk)
 - **Karyawan**: Cuma bisa liat produk sama update stok
 
